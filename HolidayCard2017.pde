@@ -4,7 +4,7 @@ PImage img;
 void setup() {
   size(800, 400);
   s=new Snow[100];
-  img = loadImage("java.png");
+  img = loadImage("data/bg.jpg");
   for (int i=0; i<s.length; i++) {
     s[i]= new Snow();
   }
