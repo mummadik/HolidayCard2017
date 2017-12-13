@@ -1,8 +1,10 @@
 
 Snow [] s;
+PImage img;
 void setup() {
   size(800, 400);
   s=new Snow[100];
+  img = loadImage("java.png");
   for (int i=0; i<s.length; i++) {
     s[i]= new Snow();
   }
@@ -10,6 +12,7 @@ void setup() {
 
 void draw() {
   background(0);
+  image(img, 0, 0);
   for (int i=0; i<s.length; i++) {
     s[i].addPhysics();
     s[i].snow();
