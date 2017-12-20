@@ -80,7 +80,7 @@ void snowMan () {
   ellipse (385, 205, 10, 10);
   ellipse (370, 200, 10, 10);
   fill(255, 155, 0);
-  triangle(300, 190, 300, 180, 320, 185);
+  triangle(400, 190, 400, 180, 420, 185);;
   ///Body
   fill(0);
   ellipse (x, 250, 10, 10);
